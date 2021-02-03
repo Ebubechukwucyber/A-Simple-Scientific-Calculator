@@ -92,11 +92,11 @@ body {
 
 .result {
     position: absolute;
-    font-size: 30px;
+    font-size: 23px;
     color:#e0e0e0;
     bottom: 0;
     right: 15px;
-    font-weight: bold;
+    
 }
 
 .grid-container {
@@ -111,7 +111,7 @@ body {
 }
 
 .numbers,
-.functions,.numbers-equal {
+.functions,.numbers-equal,.clear,.functions-delete {
     height: 30px;
     width: 45px;
     border-radius: 5px;
@@ -139,11 +139,11 @@ button:hover{
     transform: translateY(4px);
 }
 
-.functions {
+.functions,.clear,.functions-delete {
     color: #e0e0e0;
 }
 
-.functions:active {
+.functions:active, .clear:active,.functions-delete:active {
     background-color: #ff9999;
     box-shadow: 0 1px #fff;
     transform: translateY(4px);

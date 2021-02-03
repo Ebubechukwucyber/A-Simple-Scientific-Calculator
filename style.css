@@ -76,7 +76,7 @@ body {
 }
 .result {
     position: absolute;
-    font-size: 30px;
+    font-size: 23px;
     color: #0a0a0a;
     bottom: 0;
     right: 15px;
@@ -94,7 +94,7 @@ body {
 }
 
 .numbers,
-.functions,.numbers-equal {
+.functions,.numbers-equal,.clear,.functions-delete {
     height: 30px;
     width: 45px;
     border-radius: 5px;
@@ -121,11 +121,11 @@ button:hover{
     transform: translateY(4px);
 }
 
-.functions {
+.functions,.clear,.functions-delete {
     color: red;
 }
 
-.functions:active {
+.functions:active,.clear:active,.functions-delete:active {
     background-color: #ff9999;
     box-shadow: 0 1px #fff;
     transform: translateY(4px);
